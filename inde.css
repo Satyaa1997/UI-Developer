@@ -7,3 +7,14 @@ body{
     background-repeat: no-repeat;
     
 }
+
+
+<div class="dropdown ms-4">
+            <button class="dropdown-toggle btn btn-dark bi bi-arrow-bar-right" data-bs-toggle="dropdown"> Sign-In </button>
+             <ul class="dropdown-menu">
+                 <li class="dropdown-item"><a class="dropdown-item-text text-decoration-none"><span class="bi bi-arrow-bar-right"></span>Sign-IN</a></li>
+                 <li class="dropdown-item"><a class="dropdown-item-text text-decoration-none"><span class="bi bi-person-add"></span>Sign-UP</a></li>
+                 <li class="dropdown-item"><a class="dropdown-item-text text-decoration-none"><span class="bi bi-unlock-fill"></span>change Pssword</a></li>
+             </ul>
+          
+       </div>
