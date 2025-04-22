@@ -10,30 +10,68 @@
     <title>Document</title>
 </head>
 <body class="container-fluid">
-   <header>
-     <nav class="navbar navbar-dark navbar-expand-lg bg-dark mt-1 ps-5">
-        <span class="navbar-brand fw-bold fs-3 text-white">My Portals</span>
-           <ul class="navbar-nav navbar-collapse collapse " id="menu">
-             <li class="nav-item "><a class="nav-link" href="./public/doc/RESUME SATYAM.docx">My Resume</a></li>
-             <li class="nav-item "><a class="nav-link" href="./public/doc/RESUME SATYAM.docx">Contct Us</a></li>
-             <li class="nav-item">
-               <div class="dropdown">
-                <button data-bs-toggle="dropdown" class="dropdown-toggle btn btn-dark">My Projects</button>
-                <ul class="dropdown-menu">
-                    <li class="dropdown-item"><a href="./myonlineshop.html"><span class="dropdown-item-text"></span>My online Temp</a></li>
-                    <li class="dropdown-item"><a href="./amazonecard.html" ><span class="dropdown-item-text"></span>Amazon Carts</a></li>
-                    <li class="dropdown-item"><a href="./youtube.html" ><span class="dropdown-item-text"></span>You Tube</a></li>
-                </ul>
+  <div>
+    <header>
+        <h3 class="fw-bold text-warning text-center fs-1">My Portal</h3>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <button class="navbar-toggler" data-bs-target="#menu" data-bs-toggle="collapse">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="navbar-collapse collapse" id="menu">
+                  <ul class="navbar-nav ms-3">
+                      <li class="nav-item"><a class="nav-link bi bi-house">Home</a></li>
+                      <li class="nav-item">
+                        <div class="dropdown">
+                            <button data-bs-toggle="dropdown" class="dropdown-toggle btn btn-dark">My Projects</button>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item"><a href="./project1.html"><span class="dropdown-item-text"></span>Naresh IT Project</a></li>
+                                <li class="dropdown-item"><a href="./amazonecard.html" ><span class="dropdown-item-text"></span>Amazon Carts</a></li>
+                                <li class="dropdown-item"><a href="./youtube.html" ><span class="dropdown-item-text"></span>You Tube</a></li>
+                            </ul>
+                          </div>
+                       </li>        
+                      <li class="nav-item"><a class="nav-link bi bi-globe">Service</a></li>
+                      <li class="nav-item"><a class="nav-link bi bi-phone">Contact</a></li>
+                  </ul>
+                 </div>
+                 <div class="dropstart">
+                  <button class="dropdown-toggle btn btn-dark bi bi-arrow-bar-right" data-bs-toggle="dropdown"> Sign-In </button>
+                  <ul class="dropdown-menu">
+                      <li class="dropdown-item"><a class="dropdown-item-text text-decoration-none"><span class="bi bi-arrow-bar-right"></span>Sign-IN</a></li>
+                      <li class="dropdown-item"><a class="dropdown-item-text text-decoration-none"><span class="bi bi-person-add"></span>Sign-UP</a></li>
+                      <li class="dropdown-item"><a class="dropdown-item-text text-decoration-none"><span class="bi bi-unlock-fill"></span>change Pssword</a></li>
+                  </ul>
+                 </div>
+            </div>
+          </nav>
+          <div class="carousel slide carousel-dark" id="banner" data-bs-ride="carousel">
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                   <img src="./public/img/my bannner.jpg" class="w-100" height="500">
                </div>
-             </li>
-           </ul>
-     </nav>
-   </header>
-   <section>
-    
-
-     </iframe>
-   </section>
-    
+               <div class="carousel-item">
+                   <img src="./public/img/UI Developer.jpg" class="w-100" height="500">
+               </div>
+               <div class="carousel-item">
+                   <img src="./public/img/UI2.jpg" class="w-100" height="500">
+               </div>
+               <div class="carousel-item">
+                   <img src="./public/img/full stack.png" class="w-100" height="500">
+               </div>
+               <div class="carousel-item">
+                   <img src="./public/img/UI circle.png" class="w-100" height="500">
+               </div>
+             </div>
+           <button data-bs-slide="prew" data-bs-target="#banner" class="carousel-control-prev b">
+              <span class="carousel-control-prev-icon"></span>
+           </button>
+           <button data-bs-slide="next" data-bs-target="#banner" class="carousel-control-next">
+               <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+     </header>
+  </div>
+   
 </body>
 </html>
